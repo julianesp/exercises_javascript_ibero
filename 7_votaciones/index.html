@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Precio final</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <p>
+        Crea una función llamada calcularPrecioFinal que reciba dos parámetros:
+        precioInicial y descuento. La función debe devolver el precio final
+        después de aplicar el descuento.
+      </p>
+
+      <div class="year">
+        <p>Calcular precio final</p>
+        <form action="">
+          <input
+            type="number"
+            id="precioInicial"
+            placeholder="Ingresa el precio inicial"
+          />
+          <input
+            type="number"
+            id="descuento"
+            placeholder="Ingresa el descuento"
+          />
+
+          <button onclick="calcularPrecioFinal()">Enviar</button>
+        </form>
+      </div>
+
+      <button class="back" onclick="window.location.href='../index.html'">
+        Volver
+      </button>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
